@@ -20,5 +20,7 @@ function getRandomLog() {
 
 setInterval(() => {
   const log = getRandomLog();
-  console.log('application-create')
+  console.log(log)
+
+  console.log('application-edit')
 }, 2000);
