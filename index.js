@@ -21,4 +21,5 @@ function getRandomLog() {
 setInterval(() => {
   const log = getRandomLog();
   console.log(log);
+  console.log('Application-demo-log');
 }, 2000);
