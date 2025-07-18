@@ -20,6 +20,6 @@ function getRandomLog() {
 
 setInterval(() => {
   const log = getRandomLog();
-  console.log('this is value');
+  console.log('this is value updated');
   console.log('Application-demo-log');
 }, 2000);
