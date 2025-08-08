@@ -15,7 +15,7 @@ function getRandomLog() {
   const level = logLevels[Math.floor(Math.random() * logLevels.length)];
   const message = messages[Math.floor(Math.random() * messages.length)];
   const timestamp = new Date().toISOString();
-  return `[${timestamp}] ${level}: ${message}`;
+ return `[${timestamp}] ${level}: ${message}`;
 }
 
 setInterval(() => {
